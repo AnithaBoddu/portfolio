@@ -1,0 +1,46 @@
+body{
+    background-color: #C5C1C0;
+}
+
+nav{
+
+    background-color: #1A2930;
+}
+
+nav a {
+  font-size: 20px;
+color: white;
+}
+
+ul
+{ 
+overflow-x:hidden;
+white-space:nowrap; 
+height: 5em;
+width: 100%;
+} 
+
+li
+{ 
+  display:inline; 
+}       
+
+header {
+  text-align: center;
+  padding: 200px;
+  padding-bottom: 500px;
+
+}
+projects {
+   padding: 200px; 
+}
+
+
+biography p {
+    text-align: center;
+}
+
+projects {
+
+    text-align: center;
+}
