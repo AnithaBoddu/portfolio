@@ -1,114 +1,167 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <title></title>
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  </head>
-  <body>
-    <nav> 
-      <ul class="top" id="myTop">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#0f2a56">
+    <meta name="theme-color" content="#ffffff">
 
-       <li id="home-nav">
-         <a href="#header">Home</a>
-       </li>
-       <li id="aboutme-nav">
-         <a href="#about-me">Aboutme</a>
-       </li>
-       <li id="projects-nav">
-         <a href="#projects">Projects</a>
-       </li>
-       <li id="contacts-nav">
-         <a href="#footer">Contact</a>
-       </li>
-     </ul>
-   </nav> 
-   <header id="header">
+    <!--Site Preview-->
+    <meta property="og:title" content="Anitha's portfolio">
+    <meta property="og:description"
+          content="Welcome to my portfolio website. I'm a full stack developer with a background in Electronics and telecommunication and experience as a programmer Analyst in java. You can view my projects by clicking the images. Contact me regarding any inquiries. Let's talk code!">
+    <meta property="og:url" content="http://www.anithaboddu.com/">
+    <meta property="og:image" content="http://www.anithaboddu.com/img/Anitha1.png">
 
-     <div class="me">
+    <!--Normalize/ Fonts/ Font-Awesome/ CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Anitha Boddu</title>
+</head>
+<body>
 
-      <h1>Anitha Boddu</h1>
-      <h2>Full Stack Developer Living in Sanfrancisco</h2>
+<nav>
+    <ul class="topnav" id="myTopnav">
+        <li id="masthead-nav"><a href="#masthead">ANITHA</a></li>
+        <li id="about-nav"><a href="#about">ABOUT</a></li>
+        <li id="projects-nav"><a href="#projects">PROJECTS</a></li>
+        <li id="contact-nav"><a href="#footer">CONTACTS</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<header id="masthead">
+    <div class="header">
+        <h1>Hello, I am Anitha Boddu</h1>
+        <h2>Full Stack Web Developer Living in San Francisco</h2>
+        
+        <ul class="contact-list">
+            <a href="mailto:anitha.boddu11@gmail.com" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+            <a href="http://www.github.com/AnithaBoddu" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+            <a href="https://www.linkedin.com/in/anitha-boddu" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+            
+        </ul>
     </div>
-    <div class="contact">
-    <a href="mailto:anitha.boddu11@gmail.com">Email</a>
-      <a href="www.linkedin.com/in/anitha-boddu">LinkedIn</a>
-      <a href="https://github.com/AnithaBoddu">Github</a>
-    </div>
-  </header>
-  <section id="about-me">
+</header>
+
+<section id="about">
+<div class="about-me">
+      <h1>About-Me</h1>
+      </div>
     <div class="container">
+      
       <div class="profile">
-        <div class="picture">
-          
-          <img src="img/Anitha1.png">
+            <div class="picture">
+                <img class='my-picture' src="img/Anitha1.png" alt="me">
+            </div>
+            <div class="biography">
+                <p> After completing my bachelors in Electornics and Telecommunication, I joined CTS as a programmer Analyst where I fell in love with coding.I had the opportunity to work on projects with  Florida Power And Light Company and BCBS health insurance.</p>
+                <p>     </p>
+                <p>
+                    When I am not coding, I love to go for hikes, long walk with my lovely dog , playing board games and love cooking different cuisines 
+                </p>
+            </div>
         </div>
-        <div class="biography">
-          <p> After completing my bachelors in Electornics and Telecommunication, I joined CTS as a programmer Analyst where I fell in love with coding.I had the opportunity to work on projects with  Florida Power And Light Company and BCBS health insurance.
-          When I am not coding, I love to go for hikes, long walk with my lovely dog , playing board games and love cooking different cuisines </p>
-          <div class="skills">
-          <h3>Skills</h3>
-          <p>JavaScript/ES6 , HTML5 , CSS3 , Node.js , React/Redux , Express , jQuery , MongoDB , PostgreSQL , Passport , Google OAuth , TDD with Mocha/Chai , Java , J2EE WebServices , Responsive Development , Webpack , Socket.io , Babel , Travis CI , Heroku</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="container2">
-        <div class="projects_list">
+    </div>
+</section>
 
-          <div class="project1">
-            <div class="screen1">
-              <p>Screen1</p>
-            </div>
-            <div class="content1">
-              <p>content1</p>
-            </div>
-          </div>
-          <div class="project2">
-            <div class="screen2">
-              <p>Screen2</p>
-            </div>
-            <div class="content2">
-              <p>content2</p>
-            </div>
-          </div>
-          <div class="project3">
-            <div class="screen3">
-              <p>Screen3</p>
-            </div>
-            <div class="content3">
-              <p>content3</p>
-            </div>
-          </div>   
-        </div>
-      </div>
-    </section>
-    <section id="footer">
-      <div class="container3">
+<section id="projects">
+    <div class="container">
         <div class="details">
-          <h2>Contact</h2>
+            <h2>PROJECTS</h2>
+            <p>Click on images to view the demo</p>
+        </div>
+        <div class="gallery">
+            <ul>
+                <li class="project">
+                    <a class="img" target="_blank" href="https://salty-springs-82954.herokuapp.com/">
+                        <img src="img/LegalTranslator.png">
+                    </a>
+                    <a class="info" target="_blank" href="https://github.com/SpencerSwell/Legal_Translator/tree/master">
+                        <p>Legal Translator <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p>Translate your spoken word into legal Jargon<br>
+                            <i class="fa fa-code" aria-hidden="true"></i> React, Socket.io, PostgreSQL
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="">
+                        <img src="img/">
+                    </a>
+                    <a class="info" target="_blank" href="">
+                        <p> <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p><br>
+                            <i class="fa fa-code" aria-hidden="true"></i> 
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="">
+                        <img src="img/">
+                    </a>
+                    <a class="info" target="_blank" href="">
+                        <p> <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p><br>
+                            <i class="fa fa-code" aria-hidden="true"></i> 
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="">
+                        <img src="img/">
+                    </a>
+                    <a class="info" target="_blank" href="">
+                        <p> <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p><br>
+                            <i class="fa fa-code" aria-hidden="true"></i> 
+                        </p>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
 
+<section id="footer">
+    <div class="container">
+        <div class="details">
+            <h2>CONTACTS</h2>
+            <p>Get in touch with me via:</p>
         </div>
         <div class="contacts">
-          <ul>
-            <li>
-              <a href="mailto:anitha.boddu11@gmail.com">
-                
-              </a>
-            </li>
-            <li>
-             <a href="www.linkedin.com/in/anitha-boddu">Linkedin</a>
-           </li>
-           <li>
-            <a href="https://github.com/AnithaBoddu">Github</a>
-          </li>
-        </ul>
-      </div>
+            <ul>
+                <li class="contact"><a href="mailto:anitha.boddu11@gmail.com" target="_blank"> <span class="contact-info">anitha.boddu11@gmail.com</span></a></li>
+                <li class="contact"><a href="docs/resume.pdf" target="_blank"><i class="fa fa-file-text fa-fw"></i>
+                    <span class="contact-info">Download Resume</span></a></li>
+                <li class="contact"><a href="https://github.com/AnithaBoddu" target="_blank"><i
+                        class="fa fa-github fa-fw"></i> <span class="contact-info">github.com</span></a></li>
+                <li class="contact"><a href="https://www.linkedin.com/in/anitha-boddu" target="_blank"><i
+                        class="fa fa-linkedin fa-fw"></i> <span class="contact-info">linkedin.com</span></a>
+                </li>
+                <li class="contact"><a href="tel:1-669-226-9192" target="_blank"><i class="fa fa-phone fa-fw"></i> <span
+                        class="contact-info">669.226.9192</span></a></li>
+            </ul>
+        </div>
+        
     </div>
-  </section>
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script type="text/javascript" src="server.js"></script>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
