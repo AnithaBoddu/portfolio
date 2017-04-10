@@ -396,7 +396,7 @@ a.info:hover {
 
 #footer {
     background: #B2B09B;
-    min-height: 10%;
+    min-height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -405,8 +405,6 @@ a.info:hover {
 }
 
 .contacts ul {
-    
-    
     padding: 3px;
 }
 
