@@ -111,6 +111,7 @@ ul.topnav li.icon {
     text-align: center;
     margin: auto;
     width: 90%;
+    font-family: 'Nunito', sans-serif;
 }
 
 .header h1 {
@@ -396,7 +397,7 @@ a.info:hover {
 
 #footer {
     background: #B2B09B;
-    min-height: 100%;
+    min-height: 25%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -405,6 +406,8 @@ a.info:hover {
 }
 
 .contacts ul {
+
+    
     padding: 3px;
 }
 
@@ -447,14 +450,13 @@ a.info:hover {
 
 
 .contact i:hover {
-    opacity: 0.5;
     color: #FFD000;
     background: rgba(0, 0, 0, 0.25);
 }
 
 
 @media screen and (max-width: 705px) {
-    .contact-info {
+     .contact-info {
         display: none;
     }
 
